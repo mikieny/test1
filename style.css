@@ -96,10 +96,11 @@ input[type="checkbox"] {
     }
 }
 
-
-#progress-ring {
-    transition: stroke-dashoffset 0.3s ease;
+#progress-circle-container.rotate {
+    animation: rotate 2s linear infinite;
+    transform-origin: center;
 }
+
 
 
 @media (min-width: 768px) {
